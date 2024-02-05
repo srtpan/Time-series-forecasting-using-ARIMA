@@ -6,6 +6,8 @@ One of the most widely used methods for time-series forecasting is the ARIMA mod
 
 However, many real-world time-series datasets exhibit seasonal effects. To address this, the Seasonal ARIMA, or SARIMA, extends the ARIMA model by incorporating an additional set of seasonal terms. These seasonal components help in capturing the regular pattern of change observed at fixed intervals of time and are crucial for accurate forecasting in data with clear periodicity, such as electricity demand, which peaks during certain hours of the day, or retail sales that spike during the holiday season.
 
+## Diving deeper with airline data
+
 In this GitHub repository, I will delve into the intricacies of both ARIMA and SARIMA models, guiding you through the process of building and tuning these models for your time-series forecasting tasks. The notebook will cover the essential steps, from initial data exploration and preprocessing to stationarity testing, parameter selection, model fitting, and finally, evaluation of the forecasting performance. I aim to provide a comprehensive walkthrough that demystifies the complexity of time-series analysis and equips you with the knowledge to harness these powerful techniques in your projects.
 
 Whether you're forecasting stock market trends, predicting weather patterns, or estimating future sales, the insights gained from this notebook will be invaluable. I will also discuss the limitations and assumptions of the ARIMA/SARIMA models, ensuring that you have a complete understanding of when and how to apply these methods effectively. By the end of this repository, you should feel confident in your ability to implement time-series forecasting models and contribute to the growing field of predictive analytics.
